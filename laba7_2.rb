@@ -8,7 +8,7 @@ class RECTANGLE
   def to_i(number)
     tmp = number.to_s.scan(/\d|[-.]/).join
     if tmp == ''
-      self.error=1
+      self.error = 1
       nil
     else
       tmp.to_i
@@ -24,6 +24,7 @@ class RECTANGLE
 
   def square
     return nil if error == 1
+
     width * length
   end
 
