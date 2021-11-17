@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './laba7_2'
+require './main'
 require 'minitest/autorun'
 
 class TestRectangle < Minitest::Test

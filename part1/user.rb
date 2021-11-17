@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './laba7_1'
+require './main'
 
 name = 'orig'
 

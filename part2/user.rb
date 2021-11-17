@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './laba7_2'
+require './main'
 
 p 'Input length, width, height'
 len = gets.to_i
